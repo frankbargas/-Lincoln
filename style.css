@@ -1,0 +1,23 @@
+#myCarousel{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#coolEffect {
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    color: #FDFEFE;
+  }
+  33% {
+    color: #839192;
+  }
+  66% {
+    color: #7D3C98;
+  }
+  100% {
+    color: #17202A;
+  }
+}
